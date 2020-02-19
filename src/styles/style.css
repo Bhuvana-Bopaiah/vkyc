@@ -1,0 +1,542 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+     .result_screen_background_color{
+        background-color:#05AAA5;
+     }
+     .result_screen_background_img{
+     
+     }
+     .result_screen_img{
+       width: 102px;
+       height: 85px;
+       border-radius: 10px;
+       position: absolute;
+        right: 17px;
+        bottom: 20px;
+        border: 5px solid #fff;
+     }
+     .result_screen{
+      font-family: Open Sans;
+      font-size: 24px;
+      color: #fff;
+     }
+     .user_profile_img{
+      width: 114px;
+      height: 114px;
+      border-radius: 50%;
+     }
+     .list_of_proved li div p{
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+     }
+      .list_of_proved li div i{
+      
+      font-size: 26px;
+      color: #fff;
+     }
+
+     .div_bottom_boder{
+      border-bottom: 1px solid #fff;
+     }
+     .profile_details .card{
+        box-shadow: 0px 10px 30px  #00000066;
+     }
+     .card_header{
+      background-color: #F4F4F4;
+      border-radius: .25rem;
+      padding: 10px;
+     }
+     .card_header h3{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: bold;
+        color: #071615;
+     }
+
+     .profile_details_boder{
+      border-bottom: 1px solid #00000066;
+     }
+     .profile_details .card-body p{
+        font-family: Open Sans;
+        font-size: 12px;
+        color: #364848;
+     }
+      .profile_details .card-body h4{
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #364848;
+     }
+     .submit_btn{
+       background-color: #006764;
+       text-transform: capitalize;
+       font-family: Open Sans;
+        font-size: 20px;
+        color: #FFF;
+     }
+     .adhaar_upload_steps ul li:first-child{
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#13B8B3; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(2){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#1DCEC9; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(3){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        border: 2px solid #16C5C0;
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .aadhaar_content h3{
+        font-family: Open Sans;
+        font-size: 26px;
+        color: #fff;
+     }
+     .aadhaar_content p{
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #fff;
+     }
+     .aadhaar_btn{
+        height: 92px;
+        background-color:#007773;
+        box-shadow: 0px 8px 30px  #0000004D;
+        font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+        border-radius: 10px;
+     }
+     .upload_icon{
+          float: right;
+     }
+     .aadhaar_content a{
+       color: #fff;
+       text-decoration: underline;
+     }
+     .aadhaar_content p:nth-child(4){
+        padding: 15px;
+        font-family: Open Sans;
+        font-size: 18px;
+        color: #fff;
+       
+     }
+}
+.upload_tab_bg{
+  background-color:#F2F8F8;
+ 
+}
+.upload_tabs{
+   border-bottom: 2px solid #ccc !important;
+}
+.upload_tabs .nav-item{
+   margin-bottom: 0px;
+}
+.upload_tabs .nav-item .nav-link{
+   font-family: Open Sans;
+    font-size: 16px;
+   color: #5F6368;
+   padding: 10px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    font-family: Open Sans;
+    font-size: 16px;
+   color: #05AAA5;
+    background-color: #f2f8f8;
+    border-color: #f2f8f8;
+    padding: 10px;
+
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #f2f8f8;
+}
+.nav-tabs .nav-link{
+  border-bottom: none;
+}
+/* Steps */
+.step {
+  position: relative;
+  min-height: 6em;
+  color: gray;
+}
+.step + .step {
+  margin-top: 2.5em
+}
+.step > div:first-child {
+  position: static;
+  height: 0;
+}
+.step > div:not(:first-child) {
+  margin-left: 1.5em;
+      padding-left: 2em;
+    margin-top: 10px;
+}
+.step.step-active {
+  color: #05AAA5
+}
+.step.step-active .circle {
+  border: 1px solid #05AAA5;
+}
+
+/* Circle */
+.circle {
+      position: relative;
+    width: 42px;
+    height: 42px;
+    line-height: 2.5em;
+    border-radius: 100%;
+    color: #B3C9C9;
+    text-align: center;
+    border: 1px solid #B3C9C9;
+}
+
+/* Vertical Line */
+.circle:after {
+      content: ' ';
+    position: absolute;
+    display: block;
+    top: 3px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: #cfdbea;
+    z-index: 0;
+}
+.step:last-child .circle:after {
+  display: none
+}
+
+/* Stepper Titles */
+.title {
+  line-height: 1.5em;
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #4E4E4E;
+ 
+}
+.title.active{
+  color: #05AAA5;
+ }
+
+.border_bottom{
+ border-bottom: 1px solid #ccc;
+ padding-bottom: 18px;
+}
+.caption {
+  font-size: 0.8em;
+}
+
+.vedio_cal_bg{
+  background-color: #000;
+  
+
+}
+.vedio_screen_img{
+    width: 102px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 202px;
+    top: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0px 3px 10px #00000066;
+     }
+.vedio_icons{
+  position: absolute;
+    bottom: 52px;
+        left: 41%;
+}
+.micro_phone{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #fff;
+  
+}
+.call{
+   width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color:#F44336;
+}
+
+.result_screen_background_color{
+        background-color:#05AAA5;
+        padding-bottom: 10px;
+     }
+     .result_screen_background_img{
+     
+     }
+     .result_screen_img{
+       width: 102px;
+       height: 85px;
+       border-radius: 10px;
+       position: absolute;
+        right: 17px;
+        bottom: 20px;
+        border: 5px solid #fff;
+     }
+     .result_screen{
+      font-family: Open Sans;
+      font-size: 24px;
+      color: #fff;
+     }
+    
+     .adhaar_upload_steps p{
+      font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+     }
+     .adhaar_upload_steps ul li:first-child{
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#13B8B3; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(2){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#1DCEC9; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(3){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        border: 2px solid #16C5C0;
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .aadhaar_content h3{
+        font-family: Open Sans;
+        font-size: 26px;
+        font-weight: bold;
+        color: #fff;
+     }
+     .aadhaar_content p{
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #fff;
+     }
+     .aadhaar_btn{
+        height: 92px;
+        background-color:#007773;
+        box-shadow: 0px 8px 30px  #0000004D;
+        font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+        border-radius: 10px;
+     }
+     .upload_icon{
+          float: right;
+     }
+     .aadhaar_content a{
+       color: #fff;
+       text-decoration: underline;
+     }
+     .aadhaar_content p:nth-child(4){
+        padding: 15px;
+        font-family: Open Sans;
+        font-size: 18px;
+        color: #fff;
+       
+     }
+
+/*sihin page css*/
+.logo_bg{
+  background-color: #fff;
+  align-items: flex-end;
+}
+.logo_bg p{
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: bold;
+  color: #048C88;
+}
+     .signin_background{
+  background-color: #E2EAEA;
+}
+.signin_header p{
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #3A3A3A;
+  font-weight: bold;
+}
+.form-group label{
+   font-family: Open Sans;
+  font-size: 14px;
+  color: #5B5B5B;
+  margin-bottom: .0rem;
+}
+.forgot_password{
+  font-family: Open Sans;
+  font-size: 14px;
+  color: #707070;
+  float: right;
+}
+.sign_in_btn{
+  font-family: Open Sans;
+  font-size: 18px;
+  color: #fff;
+  background-color:#00716E;
+  box-shadow:none;
+}
+.sign_in_btn:hover{
+    color: #fff;
+}
+.sign_in_btn:hover{
+   box-shadow:none;
+}
+.form-check-label{
+  font-family: Open Sans;
+  font-size: 14px;
+  color: #707070;
+  display: block;
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+}
+
+.form-check-label input:checked ~ .checkmark {
+  background-color: #00716e;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.form-check-label input:checked ~ .checkmark:after {
+  display: block;
+}
+.form-check-label .checkmark:after {
+  left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.New_to_ind{
+     font-family: Open Sans;
+     font-size: 14px;
+    color: #707070;
+    width: 100%;
+    border-bottom: 1px solid #D1D1D1;
+    line-height: 0.1em;
+    
+}
+.New_to_ind span{
+  background: #E2EAEA;
+    padding: 0 10px;
+}
+.create_btn{
+   font-family: Open Sans;
+  font-size: 15px;
+  color: #707070;
+  background-color:#fff;
+  border: 1px solid #D1D1D1;
+  box-shadow:none;
+}
+.create_btn:hover{
+   box-shadow:none;
+}
+/*consent page*/
+.content_page{
+  height: 100vh;
+}
+
+.çonsent_content h1{
+   font-family: Open Sans;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.çonsent_content p{
+   font-family: Open Sans;
+  font-size: 20px;
+  color: #fff;
+}
+
+.yes_btn{
+  width: 100px;
+  height: 45px;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
+     font-family: Open Sans;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.yes_btn_bg{
+  color: #000 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+      
